@@ -8,9 +8,9 @@ const Navbar = () => {
     <header className="w-full absolute z-10">
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-6 px-6 py-4">
         <Link href="/" className="flex justify-center items-center ">
-          <h3 className="font-bold text-xl text-white bg-gray-900 py-1 rounded-md">
-            Car{" "}
-            <span className="not-italic text-2xl text-black bg-orange-600 py-1 px-1 rounded-md">
+          <h3 className="font-bold text-2xl text-white bg-gray-900 py-1 px-1 rounded-tl-md rounded-bl-md">
+            Car
+            <span className="not-italic absolute -mt-1 -ml-[-4px] text-2xl text-black bg-orange-600 py-1 px-1 rounded-tr-md rounded-br-md">
               Hub
             </span>
           </h3>
