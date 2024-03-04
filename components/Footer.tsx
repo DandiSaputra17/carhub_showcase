@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="flex flex-col text-black-100 mt-5 border-t border-gray-100 ">
       <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
-          <h3 className="font-bold text-2xl text-white bg-gray-900 py-1 px-1 rounded-tl-md rounded-bl-md">
+          <h3 className="font-bold text-2xl text-white bg-gray-900 py-1 px-1 rounded-tl-md rounded-bl-md select-none">
             Car
-            <span className="not-italic absolute -mt-1 -ml-[-4px] text-2xl text-black bg-orange-600 py-1 px-1 rounded-tr-md rounded-br-md">
+            <span className="not-italic absolute -mt-1 -ml-[-4px] text-2xl text-black bg-orange-600 py-1 px-1 rounded-tr-md rounded-br-md select-none">
               Hub
             </span>
           </h3>
