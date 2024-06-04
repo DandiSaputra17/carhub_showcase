@@ -48,7 +48,7 @@ const SearchBar = ({ setManufacturer, setModel }) => {
           src="/model-icon.png"
           width={25}
           height={25}
-          className="absolute w-[20px] h-[20px] ml-4"
+          className="absolute w-[20px] h-[2-0px] ml-4"
           alt="car model icon"
         />
         <input
